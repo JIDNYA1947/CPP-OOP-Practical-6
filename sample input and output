@@ -1,0 +1,31 @@
+Sample Input:
+No input required.
+
+
+Sample Output:
+
+1. Single Inheritance
+I am a person.
+I am a student.
+
+2. Multilevel Inheritance
+I am a person.
+I am a student.
+I am a class monitor.
+
+3. Multiple Inheritance
+I am a student.
+I am a teacher.
+I am a teaching assistant.
+
+4. Hierarchical Inheritance
+I am a person.
+I am a student.
+I participate in sports.
+
+5. Hybrid Inheritance
+I am a person.
+I am a student.
+I am a class monitor.
+I am a teacher.
+I am a college representative.
