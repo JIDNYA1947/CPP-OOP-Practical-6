@@ -25,6 +25,65 @@ This program demonstrates:
 - Hybrid inheritance using a combination of inheritance types
 - Object creation and member function calls
 
+## Inheritance Diagrams
+
+### 1. Single Inheritance
+
+```text
+    Person
+       |
+       v
+    Student
+```
+
+### 2. Multilevel Inheritance
+
+```text
+    Person
+       |
+       v
+    Student
+       |
+       v
+    Monitor
+```
+
+### 3. Multiple Inheritance
+
+```text
+    Student       Teacher
+        \           /
+         \         /
+          \       /
+       TeachingAssistant
+```
+
+### 4. Hierarchical Inheritance
+
+```text
+         Student
+         /      \
+        v        v
+    Monitor   SportsStudent
+```
+
+### 5. Hybrid Inheritance
+
+```text
+          Person
+          /    \
+         v      v
+     Student  Teacher
+         |       |
+         v       |
+      Monitor    |
+          \      /
+           v    v
+    CollegeRepresentative
+```
+
+**Note:** Virtual inheritance is used to avoid duplicate copies of the `Person` base class in the hybrid inheritance structure.
+
 ## Sample Input and Output
 
 ### Sample Input
