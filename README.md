@@ -82,7 +82,6 @@ This program demonstrates:
     CollegeRepresentative
 ```
 
-**Note:** Virtual inheritance is used to avoid duplicate copies of the `Person` base class in the hybrid inheritance structure.
 
 ## Sample Input and Output
 
